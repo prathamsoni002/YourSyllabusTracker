@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/back"
+    tools:context=".ReferenceChemistry">
+
+    <TextView
+        android:id="@+id/logologin"
+        android:layout_width="378dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:text="YourSyllabusTracker"
+        android:textColor="#FFFFFF"
+        android:textSize="33dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/chemitryI"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="88dp"
+        android:ems="10"
+        android:text="CHEMISTRY PART-I"
+        android:textColor="#FFFFFF"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logologin" />
+
+    <TextView
+        android:id="@+id/chemitryII"
+        android:layout_width="318dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:text="CHEMISTRY PART-II"
+        android:textColor="#FFFFFF"
+        android:textSize="34dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chemitryI" />
+
+
+
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/chemitryII"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chemitryI"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+            <TextView
+                android:id="@+id/C101"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="1. SolidState"
+                android:textColor="#80F184" />
+
+            <TextView
+                android:id="@+id/C101D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#80F184" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+            <TextView
+                android:id="@+id/C102"
+                android:layout_width="400dp"
+                android:layout_height="50dp"
+                android:text="2. Solution and colligative propertes"
+                android:textColor="#80F184" />
+
+            <TextView
+                android:id="@+id/C102D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#80F184" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C103"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="3. Chemical Thermodunamics and energetics"
+                android:textColor="#80F184" />
+
+            <TextView
+                android:id="@+id/C103D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#80F184" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C104"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="4. Electrochemistry"
+                android:textColor="#80F184" />
+            <TextView
+                android:id="@+id/C104D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#80F184" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C105"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="5. Chemical Kinetics"
+                android:textColor="#80F184" />
+            <TextView
+                android:id="@+id/C105D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#80F184" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C106"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="6. General principles and proces of isolation of elements"
+                android:textColor="#80F184" />
+            <TextView
+                android:id="@+id/C106D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#80F184" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C107"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="7. p-Block elements"
+                android:textColor="#80F184" />
+
+            <TextView
+                android:id="@+id/C107D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#80F184" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chemitryII">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+
+            <TextView
+                android:id="@+id/C201"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="8. d and f-Block elements"
+                android:textColor="#F3BBF4" />
+
+            <TextView
+                android:id="@+id/C201D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#F3BBF4" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C202"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="9. Coordination compounds"
+                android:textColor="#F3BBF4" />
+
+            <TextView
+                android:id="@+id/C202D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#F3BBF4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C203"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="10. Halogen Derivatives of alkalines and arenes"
+                android:textColor="#F3BBF4" />
+
+            <TextView
+                android:id="@+id/C203D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#F3BBF4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C204"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="11. Alcohols, Phenols and ethers"
+                android:textColor="#F3BBF4"
+                android:textColorHighlight="#C65A5A" />
+
+            <TextView
+                android:id="@+id/C204D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#F3BBF4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C205"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="12. Aldehydes, ketones and carbokylic acids"
+                android:textColor="#F3BBF4" />
+
+            <TextView
+                android:id="@+id/C205D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#F3BBF4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C206"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="13. Compounds containing nitrogen"
+                android:textColor="#F3BBF4" />
+
+            <TextView
+                android:id="@+id/C206D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#F3BBF4" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C207"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="14. Biomolecules"
+                android:textColor="#F3BBF4" />
+
+            <TextView
+                android:id="@+id/C207D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#F3BBF4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C208"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="5. Polymers"
+                android:textColor="#F3BBF4" />
+
+            <TextView
+                android:id="@+id/C208D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#F3BBF4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            >
+            <TextView
+                android:id="@+id/C209"
+                android:layout_width="400dp"
+                android:layout_height="43dp"
+                android:text="16. Chemistry in everyday life"
+                android:textColor="#F3BBF4"
+           />
+
+            <TextView
+                android:id="@+id/C209D"
+                android:layout_width="273dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="TextView"
+                android:textColor="#F3BBF4" />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
